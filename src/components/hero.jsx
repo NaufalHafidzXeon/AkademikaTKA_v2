@@ -13,6 +13,7 @@ import mapel8 from "../assets/8.png"
 import mapel9 from "../assets/9.png"
 import mapel10 from "../assets/10.png"
 import Navbar from "./navbar"
+import Footer from "./footer"
 
 export default function Hero() {
   const mapelList = [
@@ -75,6 +76,7 @@ export default function Hero() {
         </p>
       </section>
     </div>
+    <Footer/>
     </>
   )
 }
