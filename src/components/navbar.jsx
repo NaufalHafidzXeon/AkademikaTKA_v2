@@ -27,12 +27,14 @@ export default function Navbar() {
       </div>
 
       {/* ====== Kanan: Login Button ====== */}
+      <Link to="/login">
       <Button
         variant="outline"
         className="text-white border-white bg-[#0295CF] hover:bg-[#0295CF]/80"
       >
         Login
       </Button>
+      </Link>
     </nav>
   )
 }
